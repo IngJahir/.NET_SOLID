@@ -1,0 +1,31 @@
+﻿DIP: DEPENDENCY INVERSION PRINCIPLE
+-----------------------------------
+-> Principio de Inversion de Dependencia
+-> Vamos a tener modulos de alto nivel que pueden ser reutilizados y que no sean
+   afectados por cambios en modulos de bajo nivel
+-> Para lograrlo tenemos que adicionar abstracciones que desacoplen los de alto nivel
+   de los de abajo
+-> Los modulos de alto nivel no deben de depender de los de bajo nivel, pero ambos 
+   dependen de las abstracciones
+-> Las abstracciones no deben depender de los detalles, pero los detalles de las 
+   abstraciones.
+
+-> Los modulos de alto nivel son aquellos que tienen una naturaleza mas abstracta y 
+   logica mas compleja.
+-> Estos modulos van a dirigir a los de bajo nivel en la aplicacion
+
+-> Los modulos de bajo nivel contienen componentes que se centran mas en los detalles
+   individuales de la aplicacion
+-> Son usados dentro de los modulos de alto nivel 
+-> Lo mas importante es que ambos modulos dependen de abstracciones
+
+VENTAJAS
+--------
+-> Reduce el numero de dependencias entre los modulos 
+-> Las clases no estan fuertemente acopladas con los elementos de bajo nivel
+-> Aumente la reutilizacion de codigo
+-> Si se implementa correctamente aumenta la flexibilidad y estabilidad
+
+DESVENTAJAS
+-----------
+-> Es riesgoso aplicarlo a modulos que ya existen.

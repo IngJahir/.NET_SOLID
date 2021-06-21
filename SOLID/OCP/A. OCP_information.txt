@@ -1,0 +1,19 @@
+﻿OCP: Open Closed Principle
+--------------------------
+-> Principio de Abierto Cerrado
+-> Las clases y los metodos deben estar abiertos para extension pero cerrados para modificacion
+-> Debemos de tratar de crear un codigo que no necesite ser modificado cada que hay cambios en los requerimientos
+-> Lo hacemos al proveer un mecanismo que permite a la clase extender sus comportamientos sin modificar a la clase
+-> Es lo que debemos de tratar de lograr la mayor parte del tiempo 
+
+VENTAJAS:
+---------
+-> Nos ayuda a reducir los bugs al disminuir la cantidad de cambios
+-> Se reduce el test, pues al extender el comportamiento, solo se hace test sobre lo nuevo y no toda la clase
+
+
+DESVENTAJAS
+------------
+-> A veces no es posible implementarlo y hay que modoficar la clase
+-> Lo mejor es planear OCP desde el inicio
+

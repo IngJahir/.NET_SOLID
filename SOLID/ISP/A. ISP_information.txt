@@ -1,0 +1,19 @@
+﻿ISP: Interface Segregation Principle
+---------------------------------------
+-> Principio de Segregacion de Interfaz
+-> Ningun cliente debe ser forzado a depender de metodos que no usa
+-> Debemos de reducir el codigo a la implementacion mas pequeña
+-> Las interfaces deben de tener solo las declaraciones necesarias
+-> Se usa si es necesario dividir las interfaces en varias
+
+VENTAJAS:
+---------
+-> Si usamos una interfaz para multiples propositos podemos tener 
+   clases que solo usen unos metodos y otros no
+-> Las clases se vuelven mas faciles de implementar
+-> El codigo se hace mas facil de entender y darle mantenimiento
+
+DESVENTAJAS
+------------
+-> Si se exagera acabamos con una gran cantidad de interfaces
+

@@ -1,0 +1,25 @@
+﻿SPR: Single Responsability Principle
+-------------------------------------
+-> Principio de Responsabilidad Unica
+-> Cada clase debe de hacer solamente una cosa 
+-> La clase no debe de tener mas de una responsabilidad
+-> Si la clase tiene multiples responsabilidades es dificil darle mantenimiento
+-> Este principio nos dice que la clase solamente debe de tener una razon para cambiar,
+   es decir solamente debe de tener una sola responsabilidad
+
+VENTAJAS:
+---------
+-> El codigo es menos complejo
+-> Mas facil de leer y modificar
+-> El mantenimiento se facilita
+-> Permite una mejor reutilizacion de la clase
+-> Hay mas coherencia entre los metodos
+-> La clase y los metodos tienden a ser mas compactos
+
+DESVENTAJAS
+------------
+-> El principio se aplica de forma subjetiva, no hay una regla formal y estricta
+-> En proyectos previamente creados puede ser dificil y complicado aplicarlo
+-> Es mejor aplicarlo desde el inicio
+-> Puede llevar a la desorganizacion si no se aplica bien o se exagera
+

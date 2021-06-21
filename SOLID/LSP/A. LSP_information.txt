@@ -1,0 +1,18 @@
+﻿LSP: Liskov Substitution Principle
+----------------------------------
+-> Principio de sustitucion de Liskov
+-> Este principio no dice que los objetos de clases hijas deben de poder sustituir a los 
+   objetos de las clases padre sin ocasionar problemas
+-> Ayuda al mantenimiento
+-> Mantenamos la funcionalidad y al mismo tiempo las clases derivada
+-> En resumen es el uso adecuado del polimorfismo !!!!!1
+
+VENTAJAS:
+---------
+-> Ayuda al mantenimiento 
+-> Promueve la utilizacion de codigo 
+
+DESVENTAJAS
+------------
+-> Es mejor colocarlo en la etapa de diseño
+-> Se debe de manejar bien el polimorfismo para usarlo apropiadamente
